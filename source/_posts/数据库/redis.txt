@@ -1,0 +1,51 @@
+---
+title: redis
+cover: false
+top: false
+toc: false
+mathjax: false
+tags:
+  - redis
+categories:
+  - 数据库
+abbrlink: 23375
+date: 2019-04-20 09:13:25
+author:
+img:
+coverImg:
+password:
+summary:
+keywords:
+---
+
+1.缓存的需求
+前端页面广告位数据无需每次查询后台系统的接口，可以在前台系统添加缓存，提高访问首页的速度。
+
+电商网站首页左侧商品类目一栏的数据也可以缓存起来,不用每次打开首页都去数据库读取数据，读取数据库IO开销大。
+
+解决方案：使用缓存。
+
+1.1目前缓存的主流技术
+1、Redis
+2、Memcached
+
+二者谁的性能更高？
+1、单纯从缓存命中的角度来说，是Memcached要高，Redis和Memcache的差距不大
+2、但是，Redis提供的功能更加的强大
+
+二者的区别是什么？
+1、Memcache是多线程
+2、Redis是单线程
+
+1.2什么是缓存？
+
+2.Redis
+2.1.NoSQL
+
+
+2.2.主流的NoSQL产品
+
+
+2.3.Redis简介
+Redis官网: http://redis.io/
+
